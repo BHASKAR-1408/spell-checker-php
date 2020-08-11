@@ -33,7 +33,7 @@
 
 					$word = $_GET['word'];
 
-					echo "<h2>sentense/word you gave in the inputbox:-</h2>".$word;
+					echo "<h2>sentense<h1>/</h1>word you gave in the inputbox:-</h2>".$word;
 
 					$myArrayFromBody = explode(' ', trim(strtolower($word)));
 
@@ -45,7 +45,7 @@
 
 					$countOfwrong = 0;
 
-					echo "<h3>wrongs words/may be these words not in my dictionary are:-</h3>";
+					echo "<h3>wrongs words<h1>/</h1>may be these words not in my dictionary are:-</h3>";
 
 					foreach ($myArrayFromBody as $eachword) {
 
