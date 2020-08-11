@@ -45,7 +45,7 @@
 
 					$countOfwrong = 0;
 
-					echo "<h3>wrong words or may be those words are not in my dictionary are:-</h3>";
+					echo "<h3>sorry these words are not in my dictionary are wait for untile i update:-</h3>";
 
 					foreach ($myArrayFromBody as $eachword) {
 
